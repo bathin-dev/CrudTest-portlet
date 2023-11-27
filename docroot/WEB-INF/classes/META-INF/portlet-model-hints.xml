@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.life.test.database.model.Student">
+		<field name="studentId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="studentName" type="String" />
+		<field name="studentGrade" type="String" />
+		<field name="Gender" type="String" />
+		<field name="age" type="int" />
+	</model>
+</model-hints>
