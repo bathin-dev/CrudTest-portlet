@@ -42,7 +42,7 @@
       <td class="myTable"><%=st.getGender() %></td>
       <td class="myTable"><%=st.getAge() %></td>
       <liferay-portlet:renderURL var="editStudent">
-         <portlet:param name="jspPage" value="/crudtest/editStudent.jsp" />
+         <portlet:param name="jspPage" value="/html/crudtest/editStudent.jsp" />
          <portlet:param name="name" value="<%=st.getStudentName() %>"/>
          <portlet:param name="grade" value="<%=String.valueOf(st.getStudentGrade()) %>"/>
          <portlet:param name="gender" value="<%=st.getGender() %>"/>
